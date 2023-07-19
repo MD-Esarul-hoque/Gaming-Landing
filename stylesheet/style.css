@@ -432,3 +432,43 @@
        font-size: 8px;
     }
 }
+@media screen and (min-width:577px) and (max-width:992px) {
+    .header{
+        padding: 15px 50px;
+        
+    }
+    .sec1{
+        gap: 10px;
+    }
+    .sec1-div1{
+        width:700px;
+        height: 350px;
+        padding: 20px 30px;
+    }
+    .img1{
+        height: 350px;
+        width: 400px;
+    }
+    .sec3{
+        display:grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 20px;
+    }
+    .sec4{
+        flex-direction: column;
+        gap: 50px;
+        text-align: center;
+    }
+    .footer{
+        padding: 0;
+        padding-top: 30px;
+        padding-bottom: 20px;
+        padding-left: 150px;
+
+        width: 900px;
+    }
+    .footer-div5{
+        text-align: start;
+        margin-left: 120px;
+    }
+}
